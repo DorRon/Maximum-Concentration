@@ -1,4 +1,4 @@
 Maximum-Concentration
 =====================
 
-A con
+A concentration game with double the work required to win.
