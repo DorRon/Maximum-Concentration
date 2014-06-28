@@ -6,32 +6,24 @@ import java.awt.*;
 public class gui{
     public static void main(String [] args){
         JFrame ui = new JFrame();
-        gui.setTitle("Maximum Concentration");
-        gui.setSize(1000, 1200);
-        gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        gui.setResizable(true);
-        String[] borderArray = {
-                'n',
-                's',
-                'e',
-                'w'
-        };
-
-        for (int i = 0; i < 3; i++)
-        {
-            JPanel borderArray[i] = new JPanel();
-        }
-
+        ui.setTitle("Maximum Concentration");
+        ui.setSize(1000, 1200);
+        ui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ui.setResizable(true);
+        JPanel n = new JPanel();
         n.setBackground(Color.cyan);
+        JPanel s = new JPanel();
         s.setBackground(Color.magenta);
+        JPanel e = new JPanel();
         e.setBackground(Color.orange);
-        w.setBackground(Color.gray);
-        Container link = gui.getContainerPane();
+        JPanel w = new JPanel();
+        w.setBackground(Color.red);
+        Container link = ui.getContentPane();
         link.add(n, BorderLayout.NORTH);
         link.add(s, BorderLayout.SOUTH);
         link.add(e, BorderLayout.EAST);
         link.add(w, BorderLayout.WEST);
-        gui.setVisible(true);
+        ui.setVisible(true);
 
     }
 }
