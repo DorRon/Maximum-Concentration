@@ -18,7 +18,9 @@ public class gui{
         e.setBackground(Color.orange);
         JPanel w = new JPanel();
         w.setBackground(Color.red);
+        GamePanel gp = new GamePanel();
         Container link = ui.getContentPane();
+        link.add(gp,BorderLayout.CENTER);
         link.add(n, BorderLayout.NORTH);
         link.add(s, BorderLayout.SOUTH);
         link.add(e, BorderLayout.EAST);
