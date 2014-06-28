@@ -1,7 +1,7 @@
 public class Card
 {
 	private String name;
-	private ImageIcon image
+	private ImageIcon image;
 	public Card (String parName, ImageIcon parImage)
 	{
 		name = parName;
