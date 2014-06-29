@@ -6,13 +6,13 @@ public class RandomImage
 {
 	List<ImageIcon> images = new ArrayList<ImageIcon>();
 	private static Random random = new Random();
+
 	public RandomImage (String dir)
 	{
 		File[] files = new File(dir).listFiles();
-		images = new Vector();
 		for(File x : files)
 		{
-			images.add(new ImageIcon ( x.getName()));
+			images.add(new ImageIcon ( dir+"//"+x.getName()));
 		}
 	}
 
