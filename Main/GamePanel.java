@@ -6,7 +6,7 @@ public class GamePanel extends JPanel
 	public GamePanel()
 	{
 		super();
-		setLayout(new GridLayout(6,44));
+		setLayout(new GridLayout(6,48));
 		for(int i = 0; i < 4; i++){
 		this.add( new Card ("cat.png"));
 		this.add( new Card ("frog.png"));
