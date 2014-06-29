@@ -1,23 +1,14 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Card
+public class Card extends JButton
 {
 	private String name;
 	private ImageIcon image;
-	private Component panel;
 
-
-	public Card (String parName, String parImageName, Component panel)
+	public Card ( String parImageName)
 	{
-		name = parName;
-		image = new ImageIcon(parImageName);
-		this.panel = panel;
-	}
-
-	public String ToString()
-	{
-		return name;
+		super(new ImageIcon (parImageName));
 	}
 
 	public boolean equals(Card parCard)
@@ -29,9 +20,5 @@ public class Card
 	{
 		return name;
 	}
-	public void draw (Graphics g, int  x, int y)
-	{
-		image.paintIcon(panel,g, x,y);
-		g.drawRect(x,y,image.getIconWidth(),image.getIconHeight());
-	}
 }
+
