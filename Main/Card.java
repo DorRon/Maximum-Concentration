@@ -5,10 +5,9 @@ public class Card extends JButton
 {
 	private String name;
 	private ImageIcon image;
-	private static String directory = "E:\\Codes\\New folder\\Icons\\";
 	public Card ( String parImageName)
 	{
-		super(new ImageIcon (directory+parImageName));
+		super(new ImageIcon (parImageName));
 	}
 
 	public boolean equals(Card parCard)
