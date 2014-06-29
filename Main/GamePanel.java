@@ -14,7 +14,7 @@ public class GamePanel extends JPanel
 		this.add( new Card ("hedgehog.png"));
 		this.add( new Card ("leopard.png"));
 		this.add( new Card ("snow_leopard.png"));
-		this.add( new Card ("black_leopard.png"));
+		this.add( new Card ("rsz_black_leopard.png"));
 		this.add( new Card ("dog.png"));
 		this.add( new Card ("owl.png"));
 		this.add( new Card ("panda.png"));
