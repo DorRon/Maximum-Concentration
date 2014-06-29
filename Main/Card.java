@@ -9,6 +9,10 @@ public class Card extends JButton
 	{
 		super(new ImageIcon (parImageName));
 	}
+	public Card (ImageIcon image)
+	{
+		super(image);
+	}
 
 	public boolean equals(Card parCard)
 	{
@@ -20,4 +24,3 @@ public class Card extends JButton
 		return name;
 	}
 }
-
