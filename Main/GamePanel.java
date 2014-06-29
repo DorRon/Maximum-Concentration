@@ -10,7 +10,7 @@ public class GamePanel extends JPanel
 		RandomImage random = new RandomImage("E:\\Codes\\New folder\\Icons");
 
 		for(int i = 0; i < 48; i++){
-		this.add( new Card (random.getImage()));
+		add( new Card (random.getImage()));
 		}
 	}
 }
