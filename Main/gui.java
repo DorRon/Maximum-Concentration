@@ -2,6 +2,7 @@
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Scanner;
 
 public class gui{
     public static void main(String [] args){
@@ -27,5 +28,15 @@ public class gui{
         link.add(w, BorderLayout.WEST);
         ui.setVisible(true);
 
+        /*
+        getting user input after game is complete, for leader
+        board purposes.
+         */
+        Scanner ID = new Scanner(System.in);
+        getName getID = new getName();
+        System.out.println("Enter your name here: ");
+        String name = ID.nextLine();
+        getID.userName(name);
+          
     }
 }
