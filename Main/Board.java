@@ -23,7 +23,7 @@ public class Board extends JPanel
 		height         = tilesPerColumn * tileHeight;
 		setPreferredSize(new Dimension (width,height ));
 		tiles          = new ArrayList<Tile>();
-		mcLoader load  = new mcLoader("images");
+		mcLoader load  = new mcLoader("images//tiles");
 		imgs = load.loadAll(2);
 		Collections.shuffle(imgs);
 		int i = 0;
