@@ -6,7 +6,7 @@ public class highScore{
         System.out.println(name);
     }
     
-        ArrayList<String>gamerTags = new ArrayList<String>();    
+    ArrayList<String>gamerTags = new ArrayList<String>();    
     public void users(String name){
         gamerTags.add(name);
     }
