@@ -6,13 +6,13 @@ public class highScore{
         System.out.println(name);
     }
     
+        ArrayList<String>gamerTags = new ArrayList<String>();    
     public void users(String name){
-        ArrayList<String>gamerTags = new ArrayList<String>();
         gamerTags.add(name);
     }
-    
+   
+   ArrayList<Integer>userScores = new ArrayList<Integer>();     
    public void scores(int clicks){
-        ArrayList<Integer>userScores = new ArrayList<Integer>();
         userScores.add(clicks);
         System.out.println(clicks);
    } 
