@@ -16,5 +16,4 @@ public class highScore{
         userScores.add(clicks);
         System.out.println(clicks);
    } 
-   
 }
