@@ -56,7 +56,7 @@ public class Board extends JPanel
 
 class mcMouseListener extends MouseAdapter
 {
-	public void mouseClicked( MouseEvent e)
+	public void mousePressed( MouseEvent e)
 	{
 		int mouseX = e.getX();
 		int mouseY = e.getY();
