@@ -12,7 +12,7 @@ public class highScore{
     }
     
    public void scores(int clicks){
-        ArrayList<int>userScores = new ArrayList<int>();
+        ArrayList<Integer>userScores = new ArrayList<Integer>();
         userScores.add(clicks);
         System.out.println(clicks);
    } 
