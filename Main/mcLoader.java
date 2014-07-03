@@ -19,7 +19,7 @@ public class mcLoader
 		{
 			img = ImageIO.read( new File( dir+"/" + name));
 		}
-		catch (IOException e){}
+		catch (IOException e){ e.printStackTrace();}
 
 		return img;
 	}
