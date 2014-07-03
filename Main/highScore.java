@@ -9,8 +9,11 @@ public class highScore{
     public void users(String name){
         ArrayList<String>gamerTags = new ArrayList<String>();
         gamerTags.add(name);
-        System.out.println("Hellllllooooo" + gamerTags);
     }
     
-    
+   public void scores(int clicks){
+        ArrayList<int>userScores = new ArrayList<int>();
+        userScores.add(clicks);
+        System.out.println(clicks);
+   } 
 }

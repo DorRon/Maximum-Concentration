@@ -33,10 +33,10 @@ public class gui{
         board purposes.
          */
     
-        getName getID = new getName();
+        highScore getID = new  highScore();
         String ID = JOptionPane.showInputDialog(null, "Enter your name here: ", "User Information", JOptionPane.ERROR_MESSAGE);
         String name = ID;
         getID.userName(name);
-          
-    }
+        getID.users(name);
+        }
 }
