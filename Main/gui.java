@@ -32,10 +32,10 @@ public class gui{
         getting user input after game is complete, for leader
         board purposes.
          */
-        Scanner ID = new Scanner(System.in);
+    
         getName getID = new getName();
-        System.out.println("Enter your name here: ");
-        String name = ID.nextLine();
+        String ID = JOptionPane.showInputDialog(null, "Enter your name here: ", "User Information", JOptionPane.ERROR_MESSAGE);
+        String name = ID;
         getID.userName(name);
           
     }
